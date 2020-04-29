@@ -1,12 +1,12 @@
-package br.com.ipcontasServices.models;
+package br.com.ipcontasServices.model;
 
-public class Curso {
+public class CursoModel {
 	
 	private Integer id;
 	  private String nome;
 	  private String duracao;
 	   
-	  public Curso(Integer id, String nome, String duracao) {
+	  public CursoModel(Integer id, String nome, String duracao) {
 	    this.id = id;
 	    this.nome = nome;
 	    this.duracao = duracao;
